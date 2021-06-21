@@ -1,3 +1,5 @@
+Fork of Polygon's [fx-portal](https://github.com/Polymarket/fx-portal). Polygon's repo does not have an associated npm package so we forked it to create our own so that we can use the contracts without dealing with submodules.
+
 # fx-portal(Flexible portal)
 
 FxPortal for Polygon(prev Matic)Chain. No mapping. Seamless communication with Ethereum Network.
@@ -16,14 +18,14 @@ In short, it's Meta bridge. This bridge allows any state-syncs without mapping.
 
 **What about [PoS portal](https://docs.matic.network/docs/develop/ethereum-matic/pos/getting-started)?**
 
-PoS Portal is another bridge, but it works only for few ERC standards and requires mappings. It is more developer-friendly, allows customization without much headache. 
+PoS Portal is another bridge, but it works only for few ERC standards and requires mappings. It is more developer-friendly, allows customization without much headache.
 
 While Fx-portal focuses on permissionless-ness and flexibility, a developer might have to write more code but more customizable than PoS Portal. It requires no mapping.
 
 **Can I build my bridge?**
 
 Yes. You can check docs here: https://docs.matic.network/docs/develop/l1-l2-communication/ethereum-to-matic
-https://docs.matic.network/docs/develop/l1-l2-communication/matic-to-ethereum 
+https://docs.matic.network/docs/develop/l1-l2-communication/matic-to-ethereum
 
 ### What are FxChild and FxRoot?
 
